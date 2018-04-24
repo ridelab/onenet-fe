@@ -1,0 +1,40 @@
+html *{
+    padding: 0;
+    margin: 0;
+}
+.HolyGrail{
+    min-height: 100vh;
+    background: lightblue;
+    display: flex;
+    flex-direction: column;
+}
+header,footer{
+    display: 1;
+    flex: 1;
+    background: rgb(122, 129, 136);
+}
+footer{
+    text-align: center;
+}
+.HolyGrail-body{
+    display: flex;
+    flex: 0 0 600px;
+}
+.HolyGrail-content{
+    flex: 1;
+    margin: 20px;
+    text-align: center;
+}
+.HolyGrail-nav, .HolyGrail-ads {
+    /* 两个边栏的宽度设为12em */
+    flex: 0 0 200px;
+    background: aliceblue;
+}
+.HolyGrail-nav {
+/* 导航放到最左边 */
+order: -1;
+}
+#table{
+    margin: 20px auto;
+    width: 90%;
+}
