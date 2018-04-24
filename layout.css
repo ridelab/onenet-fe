@@ -10,10 +10,10 @@ html *{
     background: #F7F7F7;
 }
 header{
-    flex: 0 0 60px;
+    flex: 0 0 50px;
     background: #333333;
     font-size: 25px;
-    line-height: 60px;
+    line-height: 50px;
     padding-left: 20px;
     color: #E6E6E6;
 }
