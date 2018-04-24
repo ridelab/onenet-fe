@@ -7,6 +7,7 @@ html *{
     /* background:white; */
     display: flex;
     flex-direction: column;
+    background: #F7F7F7;
 }
 header{
     flex: 0 0 60px;
@@ -14,25 +15,27 @@ header{
     font-size: 25px;
     line-height: 60px;
     padding-left: 20px;
-    color:#BBBBBB;
+    color: #E6E6E6;
 }
 footer{
     text-align: center;
     flex: 1;
+    color: grey;
 }
 .HolyGrail-body{
     display: flex;
-    flex: 0 0 620px;
+    flex: 0 0 610px;
 }
 .HolyGrail-content{
     flex: 1;
     margin: 20px;
     text-align: center;
+
 }
 .HolyGrail-nav, .HolyGrail-ads {
     /* 两个边栏的宽度设为12em */
     flex: 0 0 200px;
-    background: aliceblue;
+    background: #F7F7F7;
 }
 .HolyGrail-nav {
 /* 导航放到最左边 */
@@ -40,7 +43,8 @@ order: -1;
 }
 
 #table thead th{
-    background: rgb(196, 233, 245);
+    background: #B3B3B3;
+    color: black;
 }
 #table{
     margin: 20px auto;
@@ -58,8 +62,8 @@ order: -1;
 }
 /* Alternating background colors */
 #table tr:nth-child(even) {
-    background: aliceblue
+    background: #E6E6E6;
 }
 #table tr:nth-child(odd) {
-    background: #FFF
+    background: aliceblue;
 }
