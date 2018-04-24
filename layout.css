@@ -24,7 +24,8 @@ footer{
 }
 .HolyGrail-body{
     display: flex;
-    flex: 0 0 610px;
+    /* flex: 0 0 610px; */
+    min-height: 610px;
 }
 .HolyGrail-content{
     flex: 1;
