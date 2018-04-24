@@ -4,21 +4,25 @@ html *{
 }
 .HolyGrail{
     min-height: 100vh;
-    background: lightblue;
+    /* background:white; */
     display: flex;
     flex-direction: column;
 }
-header,footer{
-    display: 1;
-    flex: 1;
-    background: rgb(122, 129, 136);
+header{
+    flex: 0 0 60px;
+    background: #333333;
+    font-size: 25px;
+    line-height: 60px;
+    padding-left: 20px;
+    color:#BBBBBB;
 }
 footer{
     text-align: center;
+    flex: 1;
 }
 .HolyGrail-body{
     display: flex;
-    flex: 0 0 600px;
+    flex: 0 0 620px;
 }
 .HolyGrail-content{
     flex: 1;
@@ -34,7 +38,28 @@ footer{
 /* 导航放到最左边 */
 order: -1;
 }
+
+#table thead th{
+    background: rgb(196, 233, 245);
+}
 #table{
     margin: 20px auto;
-    width: 90%;
+    width: 95%;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: aliceblue;
+}
+/* Padding and font style */
+#table td, #table th {
+    padding: 5px 10px;
+    font-size: 13px;
+    font-family: Verdana;
+    color: grey;
+}
+/* Alternating background colors */
+#table tr:nth-child(even) {
+    background: aliceblue
+}
+#table tr:nth-child(odd) {
+    background: #FFF
 }
